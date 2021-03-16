@@ -3,11 +3,14 @@ body {
 }
 
 .logo {
-  width: 382px;
+  width: 300px;
 }
 
 h2 {
   font-size: 1em;
+  background-color: #1d2540;
+  color: #FFFFFF;
+  
 }
 
 
@@ -40,14 +43,15 @@ header b {
   margin-top: 5px;
 }
 
-.flex-container {
+
+.container {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
 .topnav {
-  max-width: 1000px;
+  padding-left: 93px;
 }
 
 .topnav .icon-above .fas {
@@ -60,12 +64,18 @@ header b {
   padding: 0px 10px;
 }
 
-.trailer {
-  background-color: #1d2540;
-  color: #FFFFFF;
+.banner{
+  background-image: url("../images/Banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  min-height: 45vh;
+  position: relative;
+
 }
 
-.banner {
+.banner-content {
   display: flex;
   justify-content: flex-end;
 }
@@ -93,8 +103,6 @@ header b {
 }
 
 .category {
-  background-color: #1d2540;
-  color: #FFFFFF;
   display: inline-block;
   padding-right: 2rem;
 }
