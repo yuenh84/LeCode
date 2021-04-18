@@ -7,6 +7,7 @@
     <meta name="description" content="Buy and sell games from Game Hub">
     <title>Game Hub | Contact</title>
     <link href="CSS/styles.css" rel="stylesheet"/>
+    <link href="CSS/media.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/39ce50734e.js" crossorigin="anonymous"></script>
@@ -20,30 +21,30 @@
       <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <div class="searchbox-one">
         <input type="text" class="searchbox__input" placeholder="Search.." aria-label="search">
-          <button class="searchbox__submit" type="submit"><i class="fas fa-search" aria-label="submit" ></i></button>
+        <a href="search-result.html"><button class="searchbox__submit" type="submit"><i class="fas fa-search" aria-label="submit" ></i></button></a>
       </div>
       <input type="checkbox" id="hamburger-menu"/>
       <nav class="topnav">
         <div class="searchbox">
         <input type="text" class="searchbox__input" placeholder="Search.." aria-label="search">
-          <button class="searchbox__submit" type="submit"><i class="fas fa-search" aria-label="submit" ></i></button>
+        <a href="search-result.html"><button class="searchbox__submit" type="submit"><i class="fas fa-search" aria-label="submit" ></i></button></a>
         </div>
         <li class="icon-above"><a href="sign-in.html"><i class="fas fa-user"></i>Sign In</a></li>
         <li class="icon-above"><a href="cart.html"><i class="fas fa-shopping-cart"></i>Cart</a></li> 
-        <li class="icon-above"><a href="help.html"><i class="fas fa-question-circle"></i>Help</a></li> 
-        <li class="icon-above"><a href="newsletter.html"><i class="fas fa-envelope"></i>Newsletter</a></li>
+        <li class="icon-above"><a href="#"><i class="fas fa-question-circle"></i>Help</a></li> 
+        <li class="icon-above"><a href="#"><i class="fas fa-envelope"></i>Newsletter</a></li>
         <li class="icon-above"><a href="contact.html"><i class="fas fa-phone-alt"></i>Contact</a></li>
       </nav>
     <section class="bottomnav">
       <nav>
         <ul>
           <li><a class="nav-content" href="games.html">Games</a></li>
-          <li><a class="nav-content" href="consoles.html">Consoles</a></li>
-          <li><a class="nav-content" href="digital.html">Digital</a></li>
-          <li><a class="nav-content" href="toys.html">Toys</a></li>
-          <li><a class="nav-content" href="music.html">Music</a></li>
-          <li><a class="nav-content" href="magazines.html">Magazines</a></li>
-          <li><a class="nav-content" href="accessories.html">Accessories</a></li>
+          <li><a class="nav-content" href="#">Consoles</a></li>
+          <li><a class="nav-content" href="#">Digital</a></li>
+          <li><a class="nav-content" href="#">Toys</a></li>
+          <li><a class="nav-content" href="#">Music</a></li>
+          <li><a class="nav-content" href="#">Magazines</a></li>
+          <li><a class="nav-content" href="#">Accessories</a></li>
         </ul>
       </nav>
     </section>
@@ -52,43 +53,49 @@
   <main class="contact">
     <div class="news-info"><h1>Contact us</h1></div>
     <form method="POST">
-        <div class="form-wrapper">
-          <section class="user-information">
-            <div class="user-content">
-                <i class="fas fa-user user-small"></i>
-              <div class="user-info">
-                <p class="">Leslie (yuenh84@gmailcom)</p>
-                <a class="register-links sign-out" href="#">Sign Out</a>
-              </div>
+      <div class="form-wrapper">
+        <section class="user-information">
+         <div class="star-one">
+            <p>*</p> 
+         </div>
+         <div class="star-two">
+            <p>*</p>
+         </div>
+          <div class="user-content">
+            <i class="fas fa-user user-small"></i>
+            <div class="user-info">
+              <p class="">Leslie (yuenh84@gmailcom)</p>
+              <a class="register-links sign-out" href="#">Sign Out</a>
             </div>
-            <div class="contact-text">
-                <p>Welcome to our contact system. Please fill in all required fields and click the send button below.</p>
-            </div>
-            <div class="input-container name contact">
-                <div class="contact-name">
-                    <input type="text" placeholder="First name" id="first-name" class="input first contact" required>
-                    <label for="first-name" class="label"></label>
-                </div>
-                <div>
-                    <input type="text" placeholder="Last name" id="last-name" class="input last contact" required>
-                    <label for="last-name" class="label"></label>
-                </div> 
-                </div>
-                    <input type="email" placeholder="Email" id="email" class="input email" required>
-                    <label for="email" class="label"></label>
-                    <select class="select-content" id="topic" name="enquiry">
-                        <option value="Select enquiry">Select enquiry</option>
-                        <option value="Shipping">Shipping</option>
-                        <option value="Other issue">Other issue</option>
-                        <textarea name="message" placeholder="Enter your enquiry here..." id="message" cols="30" rows="10"></textarea>
-                    </select>
-                <div class="contact-text">
-                    <p>Fields marked with an asterisk (<span class="star">*</span>) are required, others can be left empty.</p>
-                </div> 
-                <div>
-                    <button class="button-sign send">Send</button>
-                </div>
-          </section>
+          </div>
+          <div class="contact-text">
+            <p>Welcome to our contact system. Please fill in all required fields and click the send button below.</p>
+          </div>
+          <div class="input-container name contact">
+             <div class="contact-name">
+                <input type="text" placeholder="First name" id="first-name" class="input first contact" required>
+                <label for="first-name" class="label"></label>
+             </div>
+             <div>
+                <input type="text" placeholder="Last name" id="last-name" class="input last contact" required>
+                <label for="last-name" class="label"></label>
+            </div> 
+          </div>
+          <input type="email" placeholder="Email" id="email" class="input email" required>
+          <label for="email" class="label"></label>
+          <select class="select-content" id="topic" name="enquiry">
+            <option value="Select enquiry">Select enquiry</option>
+            <option value="Shipping">Shipping</option>
+            <option value="Other issue">Other issue</option>
+            <textarea name="message" placeholder="Enter your enquiry here..." id="message" cols="30" rows="10"></textarea>
+          </select>
+          <div class="contact-text">
+            <p>Fields marked with an asterisk (<span class="star">*</span>) are required, others can be left empty.</p>
+          </div> 
+          <div>
+            <button class="button-sign send">Send</button>
+          </div>
+        </section>
           <section class="address">
             <h2>Contact Address</h2>
             <p class="postal-address">Postal address:</p>

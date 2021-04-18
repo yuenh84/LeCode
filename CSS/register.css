@@ -1,0 +1,92 @@
+.sign-in {
+  max-width: 100%;
+  text-align: center;
+}
+
+.input-container {
+  position: relative;
+  margin: 20px 0px;
+  display: flex;
+  text-align: center;
+}
+
+.input {
+  padding: 10px;
+  flex-grow: 1;
+  border-radius: 3px;
+  border: 1px solid #c4c4c4;
+}
+
+.sign-in .input {
+  animation-name: grow;
+  animation-duration: 1s;
+  flex-grow: 0;
+  animation-fill-mode: forwards;
+}
+
+.register {
+  max-width: 100%;
+  text-align: center;
+}
+
+.input-container.name {
+  margin-right: 26px;
+}
+
+.input-name {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.input.first {
+  min-width: 80%;
+}
+
+.input.last {
+  min-width: 100%;
+}
+
+.register .input {
+  animation-name: grow;
+  animation-duration: 1s;
+  flex-grow: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes grow {
+  100% {
+    flex-grow: 1;
+  }
+}
+
+.register-content {
+  position: relative;
+  margin: 20px 0px;
+}
+
+.register-links {
+  color: #1d2540;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.register-active {
+  color: #ea7200;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.links {
+  padding: 0px;
+  color: #ea7200;
+}
+
+.button-sign {
+  height: 40px;
+  width: 80px;
+  background: #1d2540;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+}

@@ -1,0 +1,71 @@
+.category-search {
+  margin-top: 0px;
+}
+
+.search-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-option {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  height: 330px;
+  border: 1px solid #e2e2e2;
+  position: relative;
+  box-shadow: 3px 5px #f5f5f5;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.searchbox__input {
+  max-width: 192px;
+}
+
+label::after {
+  content: "";
+  display: block;
+}
+
+.fas.fa-caret-right {
+  position: absolute;
+  left: 194px;
+  top: 145px;
+}
+
+.fas.fa-caret-right.two {
+  top: 167px;
+}
+
+.fas.fa-caret-right.three {
+  top: 190px;
+}
+
+.search-result {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid #e2e2e2;
+  box-shadow: 3px 5px #f5f5f5;
+  width: 373px;
+}
+
+.games.search {
+  text-align: start;
+}
+
+.games.search:nth-child(-n + 3) {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.games.search:nth-child(3n + 1) {
+  border-right: 1px solid #e2e2e2;
+}
+
+.games.search:nth-child(3n) {
+  border-left: 1px solid #e2e2e2;
+}
+
+.games.search:nth-child(n + 7) {
+  border-top: 1px solid #e2e2e2;
+}
