@@ -5,10 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Buy and sell games from Game Hub">
-    <title>Game Hub | Home</title>
+    <title>Game Hub | Buy-games</title>
     <link href="CSS/styles.css" rel="stylesheet"/>
-    <link href="CSS/index.css" rel="stylesheet"/>
-    <link href="CSS/media.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/39ce50734e.js" crossorigin="anonymous"></script>
@@ -19,18 +17,16 @@
       <a href="index.html"> <img class="logo" src="images/GameHub_Logo1.0.jpg" alt="Game Hub"></a>
     </div>
     <div class="container">
-
-      
       <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <div class="searchbox-one">
         <input type="text" class="searchbox__input" placeholder="Search.." aria-label="search">
-         <a href="search-result.html"><button class="searchbox__submit" type="submit"><i class="fas fa-search" aria-label="submit" ></i></button></a> 
+          <button class="searchbox__submit" type="submit"><i class="fas fa-search" aria-label="submit" ></i></button>
         </div>
       <input type="checkbox" id="hamburger-menu"/>
       <nav class="topnav">
         <div class="searchbox">
         <input type="text" class="searchbox__input" placeholder="Search.." aria-label="search">
-         <a href="search-result.html"><button class="searchbox__submit" type="submit"><i class="fas fa-search" aria-label="submit" ></i></button></a>
+          <button class="searchbox__submit" type="submit"><i class="fas fa-search" aria-label="submit" ></i></button>
         </div>
         <li class="icon-above"><a href="sign-in.html"><i class="fas fa-user"></i>Sign In</a></li>
         <li class="icon-above"><a href="cart.html"><i class="fas fa-shopping-cart"></i>Cart</a></li> 
@@ -41,7 +37,7 @@
     <section class="bottomnav">
       <nav>
         <ul>
-          <li><a class="nav-content" href="games.html">Games</a></li>
+          <li><a class="active" href="games.html">Games</a></li>
           <li><a class="nav-content" href="#">Consoles</a></li>
           <li><a class="nav-content" href="#">Digital</a></li>
           <li><a class="nav-content" href="#">Toys</a></li>
@@ -53,13 +49,29 @@
     </section>
   </div>
   </header>
+  <div class="subnav">
+    <a href="#">Playstation 5</a>
+    <a href="#">Playstation 4</a>
+    <a href="#">Xbox</a>
+    <a href="#">Nintendo Switch</a>
+    <a href="#">Nintendo 3DS</a>
+    <a href="#">PC</a>
+    <a href="#">Other Systems</a>
+</div>
   <main>
-    <div class="news-info"><h1>2020-12-09 Watch Here Cyberpunk 2077 Trailer</h1></div>
-      <section class="banner">
-        <div class="banner-content">
-          <button class="banner-button">Pre-order NOW</button>
-        </div>
+      <section class="offer">
+          <button class="button deals">Amazing Deals</button>
+          <div class="offer-banner"></div>
+          <!-- <img class="amazing" src="images/Amazing.jpg" alt="Amazing Deals"> -->
       </section>
+    <div class="news-info"><h1>2020-12-09 Watch Here Cyberpunk 2077 Trailer</h1></div>
+    <section class="banner">
+        <!-- <img class="bannerpicture" src="images/Banner.jpg" alt="Bannerpicture"> -->
+      <div class="banner-content">
+        <button class="banner-button">Pre-order NOW</button>
+      </div>
+    </section>
+    </div>
     <h2 class="category-new">New Releases</h2>
       <section class="newreleases">
         <div class="games">
@@ -75,7 +87,7 @@
             <a href="#" class="cta cta-small">Buy</a>
         </div>
         <div class="games">
-            <img class="game-cover" src="images/GameHub_covers2.jpg" alt="Super duper">
+            <img class="game-cover" src="images/GameHub_covers2test.jpg" alt="Super duper">
             <p>Cyberpunk</p>
             <p>NOK 599</p>
             <a href="#" class="cta cta-small">Buy</a>

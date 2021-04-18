@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buy and sell games from Game Hub">
+    <title>Game Hub | Cart-payment</title>
+    <link href="CSS/styles.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/39ce50734e.js" crossorigin="anonymous"></script>
+</head>
+<body class="cart-frame payment" >
+  <header>
+    <div class="logo">
+      <a href="index.html"> <img class="logo" src="images/GameHub_Logo1.0.jpg" alt="Game Hub"></a>
+    </div>
+    <div class="container">      
+      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <div class="searchbox-one">
+        <input type="text" class="searchbox__input" placeholder="Search.." aria-label="search">
+          <button class="searchbox__submit" type="submit"><i class="fas fa-search" aria-label="submit" ></i></button>
+      </div>
+      <input type="checkbox" id="hamburger-menu"/>
+      <nav class="topnav">
+        <div class="searchbox">
+        <input type="text" class="searchbox__input" placeholder="Search.." aria-label="search">
+          <button class="searchbox__submit" type="submit"><i class="fas fa-search" aria-label="submit" ></i></button>
+        </div>
+        <li class="icon-above"><a href="sign-in.html"><i class="fas fa-user"></i>Sign In</a></li>
+        <li class="icon-above"><a href="cart.html"><i class="fas fa-shopping-cart"></i>Cart</a></li> 
+        <li class="icon-above"><a href="help.html"><i class="fas fa-question-circle"></i>Help</a></li> 
+        <li class="icon-above"><a href="newsletter.html"><i class="fas fa-envelope"></i>Newsletter</a></li>
+        <li class="icon-above"><a href="contact.html"><i class="fas fa-phone-alt"></i>Contact</a></li>
+      </nav>
+    <section class="bottomnav">
+      <nav>
+        <ul>
+          <li><a class="nav-content" href="games.html">Games</a></li>
+          <li><a class="nav-content" href="consoles.html">Consoles</a></li>
+          <li><a class="nav-content" href="digital.html">Digital</a></li>
+          <li><a class="nav-content" href="toys.html">Toys</a></li>
+          <li><a class="nav-content" href="music.html">Music</a></li>
+          <li><a class="nav-content" href="magazines.html">Magazines</a></li>
+          <li><a class="nav-content" href="accessories.html">Accessories</a></li>
+        </ul>
+      </nav>
+    </section>
+  </div>
+  </header>
+  <main class="cart-payment">
+    <div class="news-info"><h1>Cart > Information > Shipping > Payment</h1></div>
+    <form method="POST">
+        <div class="form-wrapper shipping">
+          <section class="user-information">
+            <div class="shipping-container">  
+              <input type="text" placeholder="Contact" id="contact" class="input shipping contact">
+              <label for="address" class="label"></label>
+              <input type="text" placeholder="Ship to" id="ship-to" class="input ship-to">
+              <label for="ship-to" class="label"></label>
+              <input type="text" placeholder="Method" id="method" class="input method">
+              <label for="method" class="label"></label>
+              <p class="shipping-mail">yuenh84@gmail.com <a href="#">change</a></p>
+              <p class="shipping-contact">Fernanda Nissens gt 10<a href="#">change</a></p>
+              <p class="shipping-method">Standard Shipping<span class="tab standard-shipping" >Nok 69</span></p>
+            </div>
+            <h2 class="contact-info shipping">Payment</h2>
+            <div class="payment-container">
+              <input type="text" id="payment" class="input payment">
+              <label for="payment" class="label"></label> 
+              <i class="fas fa-circle"></i>
+              <i class="fab fa-cc-visa"></i>
+              <i class="fab fa-cc-mastercard"></i>
+              <p class="credit-card">Credit card</p>
+            <div class="card-content">
+                <input type="text" placeholder="Card number" id="card-number" class="input card-number">
+                <label for="card-number" class="label"></label>
+                <input type="text" placeholder="Name on card" id="card-name" class="input card-name">
+                <label for="card-name" class="label"></label>
+                <div class="input-container name contact">
+                    <div class="card-info">
+                        <input type="text" placeholder="Expiration date (MM / YY)" id="card-date" class="input card-date" required>
+                        <label for="card-date" class="label"></label>
+                    </div>
+                    <div class="card-important">
+                        <input type="text" placeholder="Security code" id="card-code" class="input card-code" required>
+                        <label for="card-code" class="label"></label>
+                        <i class="fas fa-question-circle"></i></a> 
+                    </div> 
+                </div>
+            </div> 
+            <h2 class="contact-info shipping">Billing address</h2>     
+              <div class="shipping-container">  
+                <input type="text" id="shipping-address" class="input shipping one">
+                <label for="shipping-address" class="label"></label>
+                <input type="text" id="shipping-second" class="input shipping two">
+                <label for="shipping-second" class="label"></label>
+                <p class="same-address">Same as shipping address </p>
+                <p class="different-address">Use a different billing address</p>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle shipping"></i>
+              </div>
+            </div> 
+         </section>
+          <section class="product-info shipping payment">
+              <img class="game-cover shipping" src="images/cyberpunk2077.jpg" alt="Cyberpunk 2077">      
+              <p>Cyberpunk 2077 Playstation 5  &nbsp;&nbsp;&nbsp; NOK 599<br>
+              <br>(NEW)</p>
+            <div class="price-total checkout">
+              <div class="price-info checkout">
+                <img class="logo-info" src="images/GameHub_Logo1.0.jpg" alt="Game Hub">
+                <p>Sell By Game Hub <br>Member since Dec 1, 2020 <br>seller rating: <span class="rating" >100%</span> </p>
+              </div>
+                <p class="price-subtotal" >Subtotal <span class="tab">Nok 599</span></p><br>
+                <p class="price-shipping" >Shipping <span class="tab shipping">Nok 69</span></p>
+                <p>Total <span class="tab total shipping">Nok 668 </span></p>
+                <a href="cart-succeed.html">Place your order</a>
+            </div>
+          </section>
+        </div>
+    </form>
+        </main>
+        <footer class="footer-content">
+    <p>Display Language
+    <strong>English</strong></p>
+      
+    <p>Reference Currency
+    <strong>NOK</strong> </p>
+  </footer>
+</body>
+</html>

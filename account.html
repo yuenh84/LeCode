@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buy and sell games from Game Hub">
+    <title>Game Hub | Account</title>
+    <link href="CSS/styles.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/39ce50734e.js" crossorigin="anonymous"></script>
+</head>
+<body class="cart-frame" >
+  <header>
+    <div class="logo">
+      <a href="index.html"> <img class="logo" src="images/GameHub_Logo1.0.jpg" alt="Game Hub"></a>
+    </div>
+    <div class="container">      
+      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <div class="searchbox-one">
+        <input type="text" class="searchbox__input" placeholder="Search.." aria-label="search">
+          <button class="searchbox__submit" type="submit"><i class="fas fa-search" aria-label="submit" ></i></button>
+      </div>
+      <input type="checkbox" id="hamburger-menu"/>
+      <nav class="topnav">
+        <div class="searchbox">
+        <input type="text" class="searchbox__input" placeholder="Search.." aria-label="search">
+          <button class="searchbox__submit" type="submit"><i class="fas fa-search" aria-label="submit" ></i></button>
+        </div>
+        <li class="icon-above"><a href="sign-in.html"><i class="fas fa-user"></i>Sign In</a></li>
+        <li class="icon-above"><a href="cart.html"><i class="fas fa-shopping-cart"></i>Cart</a></li> 
+        <li class="icon-above"><a href="help.html"><i class="fas fa-question-circle"></i>Help</a></li> 
+        <li class="icon-above"><a href="newsletter.html"><i class="fas fa-envelope"></i>Newsletter</a></li>
+        <li class="icon-above"><a href="contact.html"><i class="fas fa-phone-alt"></i>Contact</a></li>
+      </nav>
+    <section class="bottomnav">
+      <nav>
+        <ul>
+          <li><a class="nav-content" href="games.html">Games</a></li>
+          <li><a class="nav-content" href="consoles.html">Consoles</a></li>
+          <li><a class="nav-content" href="digital.html">Digital</a></li>
+          <li><a class="nav-content" href="toys.html">Toys</a></li>
+          <li><a class="nav-content" href="music.html">Music</a></li>
+          <li><a class="nav-content" href="magazines.html">Magazines</a></li>
+          <li><a class="nav-content" href="accessories.html">Accessories</a></li>
+        </ul>
+      </nav>
+    </section>
+  </div>
+  </header>
+  <main class="account">
+    <div class="account-nav">
+       <li>
+        <a class="active" href="account.html">Account</a>
+        <a class="nav-content" href="#">Payment</a>
+        <a class="nav-content" href="#">Notification</a>
+        <a class="nav-content" href="#">Message</a>
+        <a class="nav-content" href="#">Purchases</a>
+        <a class="nav-content" href="#">Listings</a>
+        <a class="nav-content" href="#">Wallet</a>
+        <a class="nav-content" href="#">Sign Out</a>
+       </li> 
+          </div>
+    <form method="POST">
+        <div class="form-wrapper shipping">
+          <section class="user-information account">
+            <h3 class="account-content">Name <span class="space" >Leslie</span></h3> 
+                <input type="text" placeholder="Address" id="address" class="input address-info" required>
+                <label for="address" class="label"></label>
+                <input type="text" placeholder="Apartment, suite, etc. (optional)" id="apartment" class="input address-info">
+                <label for="apartment" class="label"></label>
+                <input type="text" placeholder="City" id="city" class="input address-info" required>
+                <label for="city" class="label"></label>
+            <div>
+                <select class="select-content country" id="topic" name="enquiry">
+                    <option value="Select country">Select country</option>
+                    <option value="Norway">Norway</option>
+                    <option value="England">England</option>
+                    <input type="text" placeholder="Postal code" id="postal-code" class="input postal" required>
+                    <label for="last-name" class="label"></label>
+                </select>
+            </div>
+                <input type="email" placeholder="Email" id="email" class="input email-register" required>
+                <label for="email" class="label"></label>
+                <input type="tel" placeholder="Phone (optional)" id="phone" class="input address-info">
+                <label for="phone" class="label"></label> 
+                <button class="button-sign update" >Update</button>
+                <div class="profile">
+                    <i class="fas fa-user picture"></i><button class="button-sign edit">Edit</button></a>
+                </div>
+          </section>
+        </div>
+        <div class="password">
+            <h3 class="account-content">Change Password</h3> 
+            <input type="text" placeholder="Old Password" id="old-password" class="input">
+            <label for="old-password" class="label"></label>
+            <input type="text" placeholder="New Password" id="new-password" class="input">
+            <label for="new-password"></label>
+            <input type="text" placeholder="Confirm Password" id="confirm-password" class="input">
+            <label for="confirm-password"></label>
+            <button class="button-sign changes" >Save Changes</button>
+        </div>
+    </form>
+        </main>
+        <footer class="footer-account">
+    <p>Display Language
+    <strong>English</strong></p>
+      
+    <p>Reference Currency
+    <strong>NOK</strong> </p>
+  </footer>
+</body>
+</html>
